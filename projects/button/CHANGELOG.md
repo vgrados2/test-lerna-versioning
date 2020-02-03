@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/vgrados2/test-lerna-versioning/compare/button@0.0.7...button@0.0.8) (2020-02-03)
+
+
+### Bug Fixes
+
+* AAAAAAAA ([ccfeb36](https://github.com/vgrados2/test-lerna-versioning/commit/ccfeb366b7d4c32fdc90ffce7a5eaff7390c1980))
+
+
+
+
+
 ## 0.0.7 (2020-02-03)
 
 
