@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.7 (2020-02-03)
+
+
+### Bug Fixes
+
+* TEST ([40cd785](https://github.com/vgrados2/test-lerna-versioning/commit/40cd785f11179d15675ed547f199c3fd6b8173b1))
+
+
+
+
+
 ## [0.0.6](https://github.com/melcor76/semver-libs/compare/button@0.0.5...button@0.0.6) (2020-02-03)
 
 
