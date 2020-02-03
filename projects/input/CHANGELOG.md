@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/vgrados2/test-lerna-versioning/compare/input@0.0.7...input@0.0.8) (2020-02-03)
+
+
+### Bug Fixes
+
+* mi descripcion ([6f3063a](https://github.com/vgrados2/test-lerna-versioning/commit/6f3063a639b5ac3da6ecf158ce27989a10910d2d))
+
+
+
+
+
 ## [0.0.7](https://github.com/vgrados2/test-lerna-versioning/compare/input@0.0.6...input@0.0.7) (2020-02-03)
 
 **Note:** Version bump only for package input
