@@ -1,0 +1,87 @@
+0 silly argv { _: [ 'version' ],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js' }
+1 notice cli v3.20.2
+2 verbose rootPath C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "button@0.0.5-5-g4b265d5" => {"lastTagName":"button@0.0.5","lastVersion":"0.0.5","refCount":"5","sha":"4b265d5","isDirty":false}
+14 info Looking for changed packages since button@0.0.5
+15 silly checking diff projects/button
+16 silly found diff in projects/button/README.md
+17 verbose filtered diff [ 'projects/button/README.md' ]
+18 silly checking diff projects/input
+19 silly no diff found in input
+20 verbose updated button
+21 verbose updated input
+22 verbose git-describe undefined => "button@0.0.5-5-g4b265d5"
+23 silly git-describe parsed => {"lastTagName":"button@0.0.5","lastVersion":"0.0.5","refCount":"5","sha":"4b265d5","isDirty":false}
+24 silly independent for button at C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\button
+25 verbose getChangelogConfig using preset "conventional-changelog-angular"
+26 silly npa { type: 'tag',
+26 silly npa   registry: true,
+26 silly npa   where: undefined,
+26 silly npa   raw: 'conventional-changelog-angular',
+26 silly npa   name: 'conventional-changelog-angular',
+26 silly npa   escapedName: 'conventional-changelog-angular',
+26 silly npa   scope: undefined,
+26 silly npa   rawSpec: '',
+26 silly npa   saveSpec: null,
+26 silly npa   fetchSpec: 'latest',
+26 silly npa   gitRange: undefined,
+26 silly npa   gitCommittish: undefined,
+26 silly npa   hosted: undefined }
+27 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+28 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+29 verbose independent increment 0.0.5 by patch
+30 silly independent for input at C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\input
+31 verbose independent increment 0.0.3 by patch
+32 info execute Skipping releases
+33 silly lifecycle No script for "preversion" in "semver-libs", continuing
+34 silly lifecycle No script for "preversion" in "button", continuing
+35 silly lifecycle No script for "version" in "button", continuing
+36 silly independent for button at C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\button
+37 silly independent writing new entry: "## [0.0.6](https://github.com/melcor76/semver-libs/compare/button@0.0.5...button@0.0.6) (2020-02-03)\n\n\n### Bug Fixes\n\n* prueba ([4b265d5](https://github.com/melcor76/semver-libs/commit/4b265d52d671be14620f6798526030a790399c96))\n\n\n\n"
+38 verbose independent wrote C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\button\CHANGELOG.md
+39 silly lifecycle No script for "preversion" in "input", continuing
+40 silly lifecycle No script for "version" in "input", continuing
+41 silly independent for input at C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\input
+42 silly independent writing new entry: "## [0.0.4](https://github.com/melcor76/semver-libs/compare/input@0.0.3...input@0.0.4) (2020-02-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
+43 verbose independent wrote C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\projects\input\CHANGELOG.md
+44 silly lifecycle No script for "version" in "semver-libs", continuing
+45 silly gitAdd [ 'C:\\Users\\vgradosn\\Everis\\10.-EXAMPLES\\semver-libs\\projects\\button\\package.json',
+45 silly gitAdd   'C:\\Users\\vgradosn\\Everis\\10.-EXAMPLES\\semver-libs\\projects\\button\\CHANGELOG.md',
+45 silly gitAdd   'C:\\Users\\vgradosn\\Everis\\10.-EXAMPLES\\semver-libs\\projects\\input\\package.json',
+45 silly gitAdd   'C:\\Users\\vgradosn\\Everis\\10.-EXAMPLES\\semver-libs\\projects\\input\\CHANGELOG.md' ]
+46 silly gitCommit chore(release): publish
+46 silly gitCommit
+46 silly gitCommit  - button@0.0.6
+46 silly gitCommit  - input@0.0.4
+47 verbose git [ 'commit',
+47 verbose git   '-F',
+47 verbose git   'C:\\Users\\vgradosn\\AppData\\Local\\Temp\\57a37052-7272-4d43-bda8-de7075d46d31\\lerna-commit.txt' ]
+48 silly gitTag button@0.0.6
+49 verbose git [ 'tag', 'button@0.0.6', '-m', 'button@0.0.6' ]
+50 silly gitTag input@0.0.4
+51 verbose git [ 'tag', 'input@0.0.4', '-m', 'input@0.0.4' ]
+52 silly lifecycle No script for "postversion" in "button", continuing
+53 silly lifecycle No script for "postversion" in "input", continuing
+54 silly lifecycle No script for "postversion" in "semver-libs", continuing
+55 info git Pushing tags...
+56 silly gitPush origin master
+57 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+57 error Logon failed, use ctrl+c to cancel basic credential prompt.
+57 error Logon failed, use ctrl+c to cancel basic credential prompt.
+57 error remote: No anonymous write access.
+57 error fatal: Authentication failed for 'https://github.com/melcor76/semver-libs.git/'
+57 error
+57 error     at makeError (C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\node_modules\@lerna\child-process\node_modules\execa\index.js:174:9)
+57 error     at Promise.all.then.arr (C:\Users\vgradosn\Everis\10.-EXAMPLES\semver-libs\node_modules\@lerna\child-process\node_modules\execa\index.js:278:16)
